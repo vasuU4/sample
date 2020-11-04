@@ -1,2 +1,2 @@
 FROM tomcat:9
-COPY target/*.war http://localhost:8080/web-apps
+COPY target/*.war C:\Program Files\apache-tomcat-9.0.38\webapps
