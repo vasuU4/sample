@@ -1,2 +1,2 @@
 FROM tomcat:9
-COPY --from=build /target/*.war /usr/local/tomcat/webapps/
+COPY --from=publish target/*.war /usr/local/tomcat/webapps/
